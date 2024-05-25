@@ -2,31 +2,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This will help make the website responsive -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>University of Obadiah</title>
-	<!-- Link to the stylesheet -->
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-	<!--Add icon to browser tab-->
-	<link rel="icon" href="images/icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Obadiah</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Merriweather font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Link to font awesome 4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add icon to browser tab -->
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
 </head>
 <body>
-	<section class="header">
-		<nav>
-			<a href="index.html"><img src="images/logo.png" /></a>
-			<div class="nav-links">
-				<ul>
-					<li><a href="">HOME</a></li>
-					<li><a href="">ABOUT</a></li>
-					<li><a href="">COURSE</a></li>
-					<li><a href="">BLOG</a></li>
-					<li><a href="">CONTACT</a></li>
-				</ul>
-			</div>
-		</nav>
-	</section>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="UniOba Logo" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's most innovative University</h1>
+            <p>
+                At the University of Obadiah, we strive to push the boundaries of education and research. Our commitment to innovation and excellence has made us a leader in higher education.
+                <br /> Join us and be a part of a community that is dedicated to making a difference in the world through cutting-edge research, interdisciplinary collaboration, and a passion for lifelong learning.
+            </p>
+            <a href="#" class="hero-btn"> Visit us to know more</a>
+        </div>
+    </section>
+
+    <!--Program-->
+    <section class="program">
+        <h1>Programs We Offer</h1>
+        <p>Explore our offerings to find the program that best fits your academic and career goals.</p>
+        <div class="row">
+            <div class="program-col">
+                <h3>Undergraduate Programs</h3>
+                <p>
+                    Our undergraduate programs are designed to provide a solid foundation in your chosen field of study. With a diverse range of majors, you will engage in comprehensive coursework and hands-on learning experiences to prepare you for your future career. Our programs emphasize critical thinking, problem-solving, and communication skills.
+                </p>
+            </div>
+            <div class="program-col">
+                <h3>Honours Programs</h3>
+                <p>
+                    Our honours programs offer an advanced curriculum for high-achieving students. These programs provide opportunities for in-depth study and research, fostering intellectual growth and preparing you for postgraduate studies or professional careers. You will work closely with faculty mentors and engage in projects that challenge your academic abilities.
+                </p>
+            </div>
+
+            <div class="program-col">
+                <h3>Masters Programs</h3>
+                <p>
+                    Our masters programs are designed for students seeking to deepen their knowledge and expertise in a specific area. With a focus on advanced research, theoretical understanding, and practical application, these programs prepare you for leadership roles in academia, industry, and beyond. You will have access to state-of-the-art facilities and resources to support your studies.
+                </p>
+            </div>
+
+            <div class="program-col">
+                <h3>PhD Programs</h3>
+                <p>
+                    Our PhD programs are intended for individuals who wish to pursue original research and contribute to their field of study. These rigorous programs offer opportunities for scholarly research, interdisciplinary collaboration, and academic publishing. Graduates are prepared for careers in academia, research institutions, and high-level professional roles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Head office-->
+    <section class="office">
+        <h1> Our Head Office</h1>
+        <p>Our main office is located in the heart of Springfield, providing a central hub for our administrative and academic operations. Visit us to learn more about our facilities and services.</p>
+        <div class="row">
+            <div class="office-col">
+                <img id="headOfficeImage" src="images/headoffice.jpg" alt="Head Office">
+                <div class="layer">
+                    <h3>Visit our head office at 1234 University Avenue, Springfield.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Include the JavaScript file -->
+    <script src="jsscript.js"></script>
 </body>
 </html>

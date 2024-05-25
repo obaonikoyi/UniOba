@@ -1,0 +1,9 @@
+[0525/140301.554:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0525/140301.865:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0525/140302.032:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[0525/141224.003:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
+[0525/154824.675:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
+[0525/154825.506:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
+[0525/154825.899:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
+[0525/154829.220:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
+[0525/154829.414:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'style' of null", source: file:///C:/Users/USER/source/repos/UniOba/nav.js (6)
