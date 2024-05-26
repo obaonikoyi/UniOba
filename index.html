@@ -1,4 +1,3 @@
-<!--Index.html-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,9 +14,9 @@
     <link rel="icon" href="images/icon.png" type="image/x-icon">
 </head>
 <body>
-    <section class="header">
+    <header class="header">
         <nav>
-            <a href="index.html"><img src="images/logo.png" alt="UniOba Logo" /></a>
+            <a href="index.html"><img src="images/logo.png" alt="UniOba Logo" id="logo" /></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -30,7 +29,6 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-
         <div class="text-box">
             <h1>World's most innovative University</h1>
             <p>
@@ -39,55 +37,126 @@
             </p>
             <a href="#" class="hero-btn"> Visit us to know more</a>
         </div>
-    </section>
+    </header>
 
-    <!--Program-->
-    <section class="program">
-        <h1>Programs We Offer</h1>
-        <p>Explore our offerings to find the program that best fits your academic and career goals.</p>
-        <div class="row">
-            <div class="program-col">
-                <h3>Undergraduate Programs</h3>
-                <p>
-                    Our undergraduate programs are designed to provide a solid foundation in your chosen field of study. With a diverse range of majors, you will engage in comprehensive coursework and hands-on learning experiences to prepare you for your future career. Our programs emphasize critical thinking, problem-solving, and communication skills.
-                </p>
-            </div>
-            <div class="program-col">
-                <h3>Honours Programs</h3>
-                <p>
-                    Our honours programs offer an advanced curriculum for high-achieving students. These programs provide opportunities for in-depth study and research, fostering intellectual growth and preparing you for postgraduate studies or professional careers. You will work closely with faculty mentors and engage in projects that challenge your academic abilities.
-                </p>
-            </div>
-
-            <div class="program-col">
-                <h3>Masters Programs</h3>
-                <p>
-                    Our masters programs are designed for students seeking to deepen their knowledge and expertise in a specific area. With a focus on advanced research, theoretical understanding, and practical application, these programs prepare you for leadership roles in academia, industry, and beyond. You will have access to state-of-the-art facilities and resources to support your studies.
-                </p>
-            </div>
-
-            <div class="program-col">
-                <h3>PhD Programs</h3>
-                <p>
-                    Our PhD programs are intended for individuals who wish to pursue original research and contribute to their field of study. These rigorous programs offer opportunities for scholarly research, interdisciplinary collaboration, and academic publishing. Graduates are prepared for careers in academia, research institutions, and high-level professional roles.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!--Head office-->
-    <section class="office">
-        <h1> Our Head Office</h1>
-        <p>Our main office is located in the heart of Springfield, providing a central hub for our administrative and academic operations. Visit us to learn more about our facilities and services.</p>
-        <div class="row">
-            <div class="office-col">
-                <img id="headOfficeImage" src="images/headoffice.jpg" alt="Head Office">
-                <div class="layer">
-                    <h3>Visit our head office at 1234 University Avenue, Springfield.</h3>
+    <main>
+        <!--degree-->
+        <section class="degree">
+            <h1>Study with us</h1>
+            <p>Explore our offerings to find the degree that best fits your academic and career goals.</p>
+            <div class="row">
+                <div class="degree-col">
+                    <h3>Undergraduate Degrees</h3>
+                    <p>
+                        Our undergraduate degrees are designed to provide a solid foundation in your chosen field of study. With a diverse range of majors, you will engage in comprehensive coursework and hands-on learning experiences to prepare you for your future career. Our degrees emphasize critical thinking, problem-solving, and communication skills.
+                    </p>
+                </div>
+                <div class="degree-col">
+                    <h3>Honours Degrees</h3>
+                    <p>
+                        Our honours degrees offer an advanced curriculum for high-achieving students. These degrees provide opportunities for in-depth study and research, fostering intellectual growth and preparing you for postgraduate studies or professional careers. You will work closely with faculty mentors and engage in projects that challenge your academic abilities.
+                    </p>
+                </div>
+                <div class="degree-col">
+                    <h3>Masters Degrees</h3>
+                    <p>
+                        Our masters degrees are designed for students seeking to deepen their knowledge and expertise in a specific area. With a focus on advanced research, theoretical understanding, and practical application, these degrees prepare you for leadership roles in academia, industry, and beyond. You will have access to state-of-the-art facilities and resources to support your studies.
+                    </p>
+                </div>
+                <div class="degree-col">
+                    <h3>PhD Degrees</h3>
+                    <p>
+                        Our PhD degrees are intended for individuals who wish to pursue original research and contribute to their field of study. These rigorous degrees offer opportunities for scholarly research, interdisciplinary collaboration, and academic publishing. Graduates are prepared for careers in academia, research institutions, and high-level professional roles.
+                    </p>
                 </div>
             </div>
+        </section>
+
+        <!--Head office-->
+        <section class="office">
+            <h1> Our Head Office</h1>
+            <p>Our main office is located in the heart of Springfield, providing a central hub for our administrative and academic operations. Visit us to learn more about our facilities and services.</p>
+            <div class="row">
+                <div class="office-col">
+                    <img id="headOfficeImage" src="images/headoffice.jpg" alt="Head Office">
+                    <div class="layer">
+                        <h3>Visit our head office at 1234 University Avenue, Springfield.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Facilities-->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Explore the top-notch facilities that make our university a great place for learning and personal growth.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.jpg" alt="Library">
+                    <h3>State-of-the-Art Library</h3>
+                    <p>Our library offers an extensive collection of books, journals, and digital resources. It's a hub for research, study, and collaboration, providing students with the tools they need to succeed academically.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/swimmingpool.jpg" alt="Swimming Pool">
+                    <h3>Olympic-Size Swimming Pool</h3>
+                    <p>Our swimming pool meets international standards, offering a perfect venue for both professional training and recreational activities. It is equipped with modern facilities to ensure a safe and enjoyable experience for all users.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/cafeteria.jpg" alt="Cafeteria">
+                    <h3>Gourmet Cafeteria</h3>
+                    <p>Our cafeteria provides a variety of delicious and nutritious meals, catering to diverse dietary preferences. It's a vibrant social hub where students can relax, socialize, and enjoy quality food between classes.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--testimonials-->
+    <section class="testimonials">
+        <h1>Look at our students' testimonials</h1>
+        <p>Our students have wonderful experiences to share. Here are some of their testimonials:</p>
+        <div class="testimonial-container">
+            <div class="testimonial-slide">
+                <div class="testimonial-col">
+                    <img src="images/person1.jpg" alt="person1">
+                    <p>The University of Obadiah has provided me with exceptional opportunities for learning and growth. The professors are incredibly supportive, and the campus atmosphere is amazing!</p>
+                    <h3>Harley Thompson</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person2.jpg" alt="person2">
+                    <p>I've had an incredible experience at this university. The curriculum is challenging yet rewarding, and the extracurricular activities have enriched my university life immensely.</p>
+                    <h3>Christopher Johnson</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person3.jpg" alt="person3">
+                    <p>Studying at the University of Obadiah has been a transformative experience. The diverse community and the opportunities for research and innovation are unparalleled.</p>
+                    <h3>Mei Li</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person4.jpg" alt="person4">
+                    <p>The university's commitment to excellence and its supportive environment have helped me achieve my academic and personal goals. I am proud to be a part of this community.</p>
+                    <h3>Kofi Mensah</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person5.jpg" alt="person5">
+                    <p>From the state-of-the-art facilities to the engaging professors, everything about the University of Obadiah has exceeded my expectations. I highly recommend it!</p>
+                    <h3>Daniel Roberts</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person6.jpg" alt="person6">
+                    <p>The university's environment has been incredibly supportive. I've made lifelong friends and gained valuable knowledge and skills.</p>
+                    <h3>Emily Clarke</h3>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/person7.jpg" alt="person7">
+                    <p>The diverse student body and the emphasis on innovation and research have made my time here truly unforgettable.</p>
+                    <h3>Wei Zhang</h3>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
     </section>
+
     <!-- Include the JavaScript file -->
     <script src="jsscript.js"></script>
 </body>

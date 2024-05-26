@@ -31,3 +31,20 @@ function changeImage() {
 
 // Change image every 3 seconds
 setInterval(changeImage, 3000);
+
+let slideIndex = 0;
+const slides = document.querySelectorAll('.testimonial-col');
+const totalSlides = slides.length;
+
+function showSlides() {
+    const testimonialSlide = document.querySelector('.testimonial-slide');
+    testimonialSlide.style.transform = `translateX(-${slideIndex * (100 / 3)}%)`;
+}
+
+function plusSlides(n) {
+    slideIndex = (slideIndex + n + totalSlides) % totalSlides;
+    showSlides();
+}
+
+// Initial display
+showSlides();
